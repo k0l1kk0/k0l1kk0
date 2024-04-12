@@ -1,0 +1,119 @@
+  header {
+    text-align: center;
+    background-color: darkturquoise;
+  }
+  body {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica;
+    border: 1px solid gray;
+    flex-direction: column;
+    height: fit-content;
+}
+  nav {
+    max-width: 100%;
+    background-color: aqua;
+    text-align: center;
+  }
+  #nav2 {
+    float: left;
+    width: 15%;
+    background-color: aquamarine;
+    height: 250px;
+    padding: 0px;
+    border-right: 1px black;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+
+  }
+  #divi {
+    float: right;
+    width: 85%;
+    background-color: rgb(115, 230, 230);
+    height: 250px;
+    padding: 0px;
+  }
+
+.wrapper {
+    display: flex;
+}
+.wrapper > div {
+    flex: 1;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+#sektio {
+    height: 250px;
+}
+h2 {
+    padding-left: 25px;
+}
+p {
+    padding-left: 10px;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: crimson;
+  padding: 0.5em;
+}
+a:link {
+  color:red;
+}
+a:visited {
+  color: hotpink;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: blue;
+}
+figure {
+  width: fit-content;
+  float: left;
+  font-weight: bold;
+}
+.figure2 {
+  width: fit-content;
+  float: right;
+}
+#h2s {
+  border-style: double;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+}
+#h3s {
+  border-style: dotted;
+  border-radius: 100px;
+  text-align: center;
+}
+#sektio2 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+aside {
+  border-style: solid;
+  border-color: greenyellow;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: large;
+}
+#aside2 {
+  border-style: solid;
+  border-color: deeppink;
+}
+h3 {
+  padding-left: 10px;
+}
+#h3ss {
+  width: fit-content;
+  float: left;
+
+}
